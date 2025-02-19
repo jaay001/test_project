@@ -10,7 +10,6 @@ async function func ( ) {
     
 }
 
-console.log("hello world");
 
 async function fun () { 
     const res = await fetch('http://localhost:5000')
