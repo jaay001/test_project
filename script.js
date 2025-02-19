@@ -13,7 +13,7 @@ async function func ( ) {
 
 async function fun () { 
     const res = await fetch('http://localhost:5000')
-    const data = await res.json()
+    const data = await res.json();
    
     data.forEach((value)=>{ 
         const p = document.createElement('p')
