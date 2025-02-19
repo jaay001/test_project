@@ -9,10 +9,10 @@ async function func ( ) {
         document.querySelector('.root').appendChild(p)
     
 }
-//func ()
 
+console.log("hello world");
 
-async function fun () {
+async function fun () { 
     const res = await fetch('http://localhost:5000')
     const data = await res.json()
    
