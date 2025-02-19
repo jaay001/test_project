@@ -25,7 +25,6 @@ async function fun () {
 
 
 
-//fun()
 
 const add = async ()=>{
     if(document.querySelector('input').value.length){
