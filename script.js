@@ -4,21 +4,21 @@ async function func ( ) {
     
     
         
-        const p = document.createElement('p')
-        p.innerHTML = JSON.stringify(data)
-        document.querySelector('.root').appendChild(p)
+        const p = document.createElement('p');
+        p.innerHTML = JSON.stringify(data);
+        document.querySelector('.root').appendChild(p);
     
 }
 
 
 async function fun () { 
-    const res = await fetch('http://localhost:5000')
+    const res = await fetch('http://localhost:5000');
     const data = await res.json();
    
     data.forEach((value)=>{ 
-        const p = document.createElement('p')
-        p.innerHTML = value.name
-        document.querySelector('.root').appendChild(p)     
+        const p = document.createElement('p');
+        p.innerHTML = value.name;
+        document.querySelector('.root').appendChild(p); 
     })
 }
 
