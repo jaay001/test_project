@@ -41,3 +41,4 @@ const add = async ()=>{
     alert("Enter your name")
 }
 }
+console.log("hello");
